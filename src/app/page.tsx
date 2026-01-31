@@ -278,8 +278,8 @@ const CurriculumSection = () => (
 
 const TestimonialsSection = () => {
     const testimonials = [
-        { id: 'testimonial-1', name: 'Sarah J.', quote: "The class helped me realize that logic is an ineffective tool before the age of 5." },
-        { id: 'testimonial-2', name: 'Michael B.', quote: "I started seeing changes in my daughter's behavior within days. Highly recommend." },
+        { id: 'testimonial-1', name: 'Sarah J.', quote: "This class helped me to confidently understand what goes on in the preschool brain, to know what young children are capable of and need at an early age." },
+        { id: 'testimonial-2', name: 'Michael B.', quote: "I learned that logic is an ineffective tool before the age of 5. I started seeing changes in my daughter's behavior within days. Highly recommend." },
         { id: 'testimonial-3', name: 'Emily R.', quote: "I love how deep the class went.  I learned not just tactics, but a coherent philosophy.  Now I can use it for any problems that come up." },
     ];
 
