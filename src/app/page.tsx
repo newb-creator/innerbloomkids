@@ -140,7 +140,7 @@ const InstructorSection = () => {
                         <h2 className="text-3xl md:text-4xl font-headline font-bold">Meet Your Instructor: Lynette Anderson</h2>
                         <p className="mt-4 text-lg text-primary font-semibold">Experienced Early Childhood Educator</p>
                         <p className="mt-4 text-muted-foreground">
-                            Unlike most practitioners who work with adults, Lynette has spent 30 years in the classroom and guided over 2,000 young children and their parents (and is still teaching preschool today). She offers world-class insight on how children actually work–not how they work in theory.
+                            Unlike most practitioners who work with adults, Lynette has spent 30 years in the classroom.  She has personally guided over 2,000 young children and their parents (and she's still teaching preschool today). Lynette offers world-class insight on how children <em>actually</em> work--not how they work in theory.
                         </p>
                     </div>
                 </div>
@@ -156,7 +156,7 @@ const SampleLessonSection = () => {
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center mb-12">
                      <h2 className="text-3xl md:text-4xl font-headline font-bold">See For Yourself: A Sample Lesson</h2>
-                     <p className="mt-4 max-w-2xl mx-auto text-muted-foreground">Get a taste of Lynette's practical, empathy-driven approach.</p>
+                     <p className="mt-4 max-w-2xl mx-auto text-muted-foreground">Get a taste of Lynette's practical, connected approach.</p>
                 </div>
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                      <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg group">
@@ -170,15 +170,15 @@ const SampleLessonSection = () => {
                          <ul className="mt-4 space-y-3">
                              <li className="flex items-center gap-3">
                                  <CheckCircle className="w-6 h-6 text-primary"/>
-                                 <span>The real reason your child has temper tantrums.</span>
+                                 <span>The 3 stages of a tantrum.</span>
                              </li>
                              <li className="flex items-center gap-3">
                                  <CheckCircle className="w-6 h-6 text-primary"/>
-                                 <span>How to respond instead of react.</span>
+                                 <span>Why talking makes it worse.</span>
                              </li>
                              <li className="flex items-center gap-3">
                                  <CheckCircle className="w-6 h-6 text-primary"/>
-                                 <span>A simple phrase to de-escalate any situation.</span>
+                                 <span>How to hold the space with calm.</span>
                              </li>
                          </ul>
                      </div>
@@ -192,16 +192,17 @@ const CourseHighlightsSection = () => (
     <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6">
              <div className="text-center mb-12">
-                 <h2 className="text-3xl md:text-4xl font-headline font-bold">More Than Just "Tips & Tricks"</h2>
-                 <p className="mt-4 max-w-2xl mx-auto text-muted-foreground">We go beyond surface-level advice to help you build a lasting foundation of connection.</p>
+                 <h2 className="text-3xl md:text-4xl font-headline font-bold">Backed by science, forged by experience</h2>
+                 <p className="mt-4 max-w-2xl mx-auto text-muted-foreground">Our class combines research-backed content and active teaching methods to help you learn
+                 </p>
             </div>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                 <div className="text-center">
                     <div className="flex justify-center items-center mb-4 w-16 h-16 mx-auto bg-primary/10 rounded-full">
                         <HeartHandshake className="w-8 h-8 text-primary"/>
                     </div>
                     <h3 className="text-xl font-headline font-bold">Fun & Active Learning</h3>
-                    <p className="mt-2 text-muted-foreground">Engaging exercises that feel like play, not homework.</p>
+                    <p className="mt-2 text-muted-foreground">Forget dry lectures. We use playful, spot-on demonstrations that feel exactly like life with your child.</p>
                 </div>
                  <div className="text-center">
                     <div className="flex justify-center items-center mb-4 w-16 h-16 mx-auto bg-primary/10 rounded-full">
@@ -215,7 +216,8 @@ const CourseHighlightsSection = () => (
                         <BrainCircuit className="w-8 h-8 text-primary"/>
                     </div>
                     <h3 className="text-xl font-headline font-bold">Mindset Over Methods</h3>
-                    <p className="mt-2 text-muted-foreground">Understand the 'why' behind behaviors to foster real change.</p>
+                    <p className="mt-2 text-muted-foreground">Understand the 'why' behind the 'how'.  Go from just copying steps (mimicry) to learning the fundamentals of relationship-building. <em>That’s</em> your parenting superpower
+                    .</p>
                 </div>
                  <div className="text-center">
                     <div className="flex justify-center items-center mb-4 w-16 h-16 mx-auto bg-primary/10 rounded-full">
@@ -223,6 +225,13 @@ const CourseHighlightsSection = () => (
                     </div>
                     <h3 className="text-xl font-headline font-bold">Bite-Sized & Convenient</h3>
                     <p className="mt-2 text-muted-foreground">Learn at your own pace with short, digestible lessons.</p>
+                </div>
+                <div className="text-center">
+                    <div className="flex justify-center items-center mb-4 w-16 h-16 mx-auto bg-primary/10 rounded-full">
+                        <Users className="w-8 h-8 text-primary"/>
+                    </div>
+                    <h3 className="text-xl font-headline font-bold">Learn Together</h3>
+                    <p className="mt-2 text-muted-foreground">We make it easy to invite your spouse or friends, so you can learn, laugh, and grow as a team.</p>
                 </div>
             </div>
         </div>
@@ -269,9 +278,9 @@ const CurriculumSection = () => (
 
 const TestimonialsSection = () => {
     const testimonials = [
-        { id: 'testimonial-1', name: 'Sarah J.', quote: "This course was a game-changer. I feel like I finally understand my son instead of just battling him. Our home is so much more peaceful." },
-        { id: 'testimonial-2', name: 'Michael B.', quote: "I was skeptical, but Lynette's approach is so practical. I started seeing changes in my daughter's behavior within days. Highly recommend." },
-        { id: 'testimonial-3', name: 'Emily R.', quote: "Genuine Connection should be required for all parents. It's not about being perfect, it's about being present. Thank you, Lynette!" },
+        { id: 'testimonial-1', name: 'Sarah J.', quote: "The class helped me realize that logic is an ineffective tool before the age of 5." },
+        { id: 'testimonial-2', name: 'Michael B.', quote: "I started seeing changes in my daughter's behavior within days. Highly recommend." },
+        { id: 'testimonial-3', name: 'Emily R.', quote: "I love how deep the class went.  I learned not just tactics, but a coherent philosophy.  Now I can use it for any problems that come up." },
     ];
 
     return (
