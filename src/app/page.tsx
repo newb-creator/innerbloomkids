@@ -75,7 +75,7 @@ const Header = () => (
         <a href="#reviews" className="hover:text-primary transition-colors">Reviews</a>
       </nav>
       <Button asChild>
-        <a href="#waitlist">Join Waitlist</a>
+        <a href="#waitlist">Test Waitlist</a>
       </Button>
     </div>
   </header>
@@ -92,7 +92,7 @@ const Hero = () => (
             </p>
             <div className="mt-8">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90 text-accent-foreground">
-                    <a href="#waitlist">Join the Waitlist Now</a>
+                    <a href="#waitlist">Test Waitlist Now</a>
                 </Button>
             </div>
         </div>
@@ -216,8 +216,8 @@ const CourseHighlightsSection = () => (
                         <BrainCircuit className="w-8 h-8 text-primary"/>
                     </div>
                     <h3 className="text-xl font-headline font-bold">Mindset Over Methods</h3>
-                    <p className="mt-2 text-muted-foreground">Understand the 'why' behind the 'how'.  Go from just copying steps (mimicry) to learning the fundamentals of relationship-building. <em>That’s</em> your parenting superpower
-                    .</p>
+                    <p className="mt-2 text-muted-foreground">Go beyond following steps (mimicry).  Master the fundamentals of relationship-building. <em>That's</em> your parenting superpower.
+                    </p>
                 </div>
                  <div className="text-center">
                     <div className="flex justify-center items-center mb-4 w-16 h-16 mx-auto bg-primary/10 rounded-full">
@@ -360,7 +360,7 @@ const PricingSection = () => (
                         </ul>
                     </CardContent>
                     <div className="p-6 pt-0">
-                         <Button className="w-full" variant="outline">Join Waitlist</Button>
+                         <Button className="w-full" variant="outline">Test Waitlist</Button>
                     </div>
                 </Card>
                  <Card className="flex flex-col border-primary ring-2 ring-primary">
@@ -377,7 +377,7 @@ const PricingSection = () => (
                         </ul>
                     </CardContent>
                      <div className="p-6 pt-0">
-                         <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">Join the Village Waitlist</Button>
+                         <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">Test the Village Waitlist</Button>
                     </div>
                 </Card>
             </div>
@@ -409,7 +409,11 @@ export default function Home() {
         <FaqSection />
         <PricingSection />
       </main>
-      <Footer />
+      <footer className="bg-secondary">
+        <div className="container mx-auto px-4 md:px-6 py-8 text-center text-muted-foreground">
+            <p>&copy; {new Date().getFullYear()} Genuine Connection. All Rights Reserved.</p>
+        </div>
+      </footer>
     </div>
   );
 }
