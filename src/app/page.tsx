@@ -166,7 +166,7 @@ const SampleLessonSection = () => {
                          </div>
                      </div>
                      <div>
-                         <h3 className="text-2xl font-headline font-bold">What you'll learn in 5 minutes</h3>
+                         <h3 className="text-2xl font-headline font-bold">What you'll learn in 10 minutes</h3>
                          <ul className="mt-4 space-y-3">
                              <li className="flex items-center gap-3">
                                  <CheckCircle className="w-6 h-6 text-primary"/>
@@ -204,34 +204,27 @@ const CourseHighlightsSection = () => (
                     <h3 className="text-xl font-headline font-bold">Fun & Active Learning</h3>
                     <p className="mt-2 text-muted-foreground">Forget dry lectures. We use playful, spot-on demonstrations that feel exactly like life with your child.</p>
                 </div>
-                 <div className="text-center">
+                <div className="text-center">
                     <div className="flex justify-center items-center mb-4 w-16 h-16 mx-auto bg-primary/10 rounded-full">
-                        <Grab className="w-8 h-8 text-primary"/>
+                        <BrainCircuit className="w-8 h-8 text-primary"/>
                     </div>
-                    <h3 className="text-xl font-headline font-bold">Practical & Actionable</h3>
-                    <p className="mt-2 text-muted-foreground">Tools you can use immediately, no matter the situation.</p>
+                    <h3 className="text-xl font-headline font-bold">Live Instructor</h3>
+                    <p className="mt-2 text-muted-foreground">Live classes where you can ask the expert, deepen learning, and find a parent community.</p>
                 </div>
                  <div className="text-center">
                     <div className="flex justify-center items-center mb-4 w-16 h-16 mx-auto bg-primary/10 rounded-full">
                         <BrainCircuit className="w-8 h-8 text-primary"/>
                     </div>
                     <h3 className="text-xl font-headline font-bold">Mindset Over Methods</h3>
-                    <p className="mt-2 text-muted-foreground">Go beyond following steps (mimicry).  Master the fundamentals of relationship-building. <em>That's</em> your parenting superpower.
+                    <p className="mt-2 text-muted-foreground">Go beyond mimicry to start mastering the fundamentals of relationship-building. <em>That's</em> parenting superpower.
                     </p>
-                </div>
-                 <div className="text-center">
-                    <div className="flex justify-center items-center mb-4 w-16 h-16 mx-auto bg-primary/10 rounded-full">
-                        <Clock className="w-8 h-8 text-primary"/>
-                    </div>
-                    <h3 className="text-xl font-headline font-bold">Bite-Sized & Convenient</h3>
-                    <p className="mt-2 text-muted-foreground">Learn at your own pace with short, digestible lessons.</p>
                 </div>
                 <div className="text-center">
                     <div className="flex justify-center items-center mb-4 w-16 h-16 mx-auto bg-primary/10 rounded-full">
-                        <Users className="w-8 h-8 text-primary"/>
+                        <Grab className="w-8 h-8 text-primary"/>
                     </div>
-                    <h3 className="text-xl font-headline font-bold">Learn Together</h3>
-                    <p className="mt-2 text-muted-foreground">We make it easy to invite your spouse or friends, so you can learn, laugh, and grow as a team.</p>
+                    <h3 className="text-xl font-headline font-bold">Practical & Actionable</h3>
+                    <p className="mt-2 text-muted-foreground">Tools you can use immediately, no matter the situation.</p>
                 </div>
             </div>
         </div>
