@@ -66,7 +66,7 @@ const Header = () => (
       <a href="#" className="flex items-center gap-2">
         <HeartHandshake className="w-8 h-8 text-accent" />
         <span className="text-2xl font-headline font-bold">
-          <span className="text-foreground">Genuine</span><span className="text-accent">Connection</span>
+          <span className="text-foreground">Inner</span><span className="text-accent">Bloom</span>
         </span>
       </a>
       <nav className="hidden md:flex items-center space-x-6">
@@ -360,7 +360,9 @@ const PricingSection = () => (
                         </ul>
                     </CardContent>
                     <div className="p-6 pt-0">
-                         <Button className="w-full" variant="outline">Join Waitlist</Button>
+                         <Button className="w-full" variant="outline" asChild>
+                            <a href="#waitlist">Join Waitlist</a>
+                         </Button>
                     </div>
                 </Card>
                  <Card className="flex flex-col border-primary ring-2 ring-primary">
@@ -377,21 +379,14 @@ const PricingSection = () => (
                         </ul>
                     </CardContent>
                      <div className="p-6 pt-0">
-                         <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">Join the Village Waitlist</Button>
+                         <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground" asChild>
+                            <a href="#waitlist">Join the Village Waitlist</a>
+                         </Button>
                     </div>
                 </Card>
             </div>
         </div>
     </section>
-);
-
-
-const Footer = () => (
-  <footer className="bg-secondary">
-    <div className="container mx-auto px-4 md:px-6 py-8 text-center text-muted-foreground">
-        <p>&copy; {new Date().getFullYear()} Genuine Connection. All Rights Reserved.</p>
-    </div>
-  </footer>
 );
 
 export default function Home() {
@@ -411,7 +406,7 @@ export default function Home() {
       </main>
       <footer className="bg-secondary">
         <div className="container mx-auto px-4 md:px-6 py-8 text-center text-muted-foreground">
-            <p>&copy; {new Date().getFullYear()} Genuine Connection. All Rights Reserved.</p>
+            <p>&copy; {new Date().getFullYear()} InnerBloom. All Rights Reserved.</p>
         </div>
       </footer>
     </div>
