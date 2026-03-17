@@ -399,7 +399,7 @@ export default function Home() {
       </main>
       <footer className="bg-secondary">
         <div className="container mx-auto px-4 md:px-6 py-8 text-center text-muted-foreground">
-            <p>&copy; {new Date().getFullYear()} InnerBloom. All Rights Reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Journey through Parenting. All Rights Reserved.</p>
         </div>
       </footer>
     </div>
