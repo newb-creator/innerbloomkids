@@ -8,6 +8,7 @@
     "source": "dataconnect"
   },
   "hosting": {
+    "site": "journey-through-parenting",
     "source": ".",
     "ignore": [
       "firebase.json",
