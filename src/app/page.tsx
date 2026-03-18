@@ -236,7 +236,7 @@ const CurriculumSection = () => (
     <section id="curriculum" className="py-16 md:py-24 bg-secondary">
         <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl md:text-4xl font-headline font-bold text-center">Course Curriculum</h2>
-            <p className="mt-4 max-w-2xl mx-auto text-center text-muted-foreground">A 4-week journey to transform your family's dynamic.</p>
+            <p className="mt-4 max-w-2xl mx-auto text-center text-muted-foreground">A 4-week HELLO to transform your family's dynamic.</p>
             <div className="max-w-3xl mx-auto mt-12">
                 <Accordion type="single" collapsible className="w-full">
                     <AccordionItem value="item-1">
