@@ -64,9 +64,24 @@ const Header = () => (
   <header className="bg-background/80 backdrop-blur-sm sticky top-0 z-40">
     <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
       <a href="#" className="flex items-center gap-2">
-        <HeartHandshake className="w-8 h-8 text-accent" />
-        <span className="text-2xl font-headline font-bold">
-          <span className="text-foreground">Journey</span><span className="text-accent">through Parenting</span>
+        <svg width="44" height="44" viewBox="0 0 70 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="54" cy="18" r="6" fill="#D85A30"/>
+          <path d="M54 24 L54 36" stroke="#D85A30" stroke-width="3.5" stroke-linecap="round"/>
+          <path d="M54 36 L46 46" stroke="#D85A30" stroke-width="3.5" stroke-linecap="round"/>
+          <path d="M46 46 L54 50" stroke="#D85A30" stroke-width="3.5" stroke-linecap="round"/>
+          <path d="M54 29 L62 34" stroke="#D85A30" stroke-width="3" stroke-linecap="round"/>
+          <path d="M54 29 L43 33" stroke="#D85A30" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="18" cy="20" r="4.5" fill="#2a2a2a"/>
+          <path d="M18 24.5 L18 37" stroke="#2a2a2a" stroke-width="2.8" stroke-linecap="round"/>
+          <path d="M18 37 L13 48" stroke="#2a2a2a" stroke-width="2.8" stroke-linecap="round"/>
+          <path d="M18 37 L23 48" stroke="#2a2a2a" stroke-width="2.8" stroke-linecap="round"/>
+          <path d="M18 29 L11 34" stroke="#2a2a2a" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M18 29 L29 33" stroke="#2a2a2a" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M29 33 L43 33" stroke="#D85A30" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="2.5 2"/>
+        </svg>
+        <span className="flex flex-col font-headline leading-[1.15]">
+          <span className="text-foreground font-semibold" style={{fontSize: '15px'}}>Journey through</span>
+          <span className="text-accent font-bold" style={{fontSize: '22px'}}>Parenting</span>
         </span>
       </a>
       <nav className="hidden md:flex items-center space-x-6">
@@ -215,7 +230,7 @@ const CourseHighlightsSection = () => (
                     <div className="flex justify-center items-center mb-4 w-16 h-16 mx-auto bg-primary/10 rounded-full">
                         <BrainCircuit className="w-8 h-8 text-primary"/>
                     </div>
-                    <h3 className="text-xl font-headline font-bold">Your Real Parenting Superpower</h3>
+                    <h3 className="text-xl font-headline font-bold">Real Parenting Superpower</h3>
                     <p className="mt-2 text-muted-foreground">Techniques change. Principles don't. Learn the fundamentals of connection so you can adapt to any moment — no script required.</p>
                 </div>
                 <div className="text-center">
