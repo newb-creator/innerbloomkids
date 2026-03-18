@@ -217,7 +217,7 @@ const CourseHighlightsSection = () => (
                         <BrainCircuit className="w-8 h-8 text-primary"/>
                     </div>
                     <h3 className="text-xl font-headline font-bold">Live Instructor</h3>
-                    <p className="mt-2 text-muted-foreground">Live classes where you can ask the expert, deepen learning, and find a parent community.</p>
+                    <p className="mt-2 text-muted-foreground">Live classes where you can ask the expert, deepen learning, and find parent community.</p>
                 </div>
                 <div className="text-center">
                     <div className="flex justify-center items-center mb-4 w-16 h-16 mx-auto bg-primary/10 rounded-full">
