@@ -350,7 +350,7 @@ const PricingSection = () => (
     <section id="waitlist" className="py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6">
              <div className="text-center mb-12">
-                 <h2 className="text-3xl md:text-4xl font-headline font-bold">Choose Your Path</h2>
+                 <h2 className="text-3xl md:text-4xl font-headline font-bold">Join Our First Class</h2>
                  <p className="mt-4 max-w-2xl mx-auto text-muted-foreground">Invest in your family's future. Join the waitlist to be notified when enrollment opens.</p>
             </div>
             <div className="grid lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
