@@ -199,25 +199,24 @@ const CourseHighlightsSection = () => (
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                 <div className="text-center">
                     <div className="flex justify-center items-center mb-4 w-16 h-16 mx-auto bg-primary/10 rounded-full">
-                        <HeartHandshake className="w-8 h-8 text-primary"/>
-                    </div>
-                    <h3 className="text-xl font-headline font-bold">Fun & Active Learning</h3>
-                    <p className="mt-2 text-muted-foreground">Forget dry lectures. We use playful, spot-on demonstrations that feel exactly like life with your child.</p>
-                </div>
-                <div className="text-center">
-                    <div className="flex justify-center items-center mb-4 w-16 h-16 mx-auto bg-primary/10 rounded-full">
                         <BrainCircuit className="w-8 h-8 text-primary"/>
                     </div>
                     <h3 className="text-xl font-headline font-bold">Live Instructor</h3>
                     <p className="mt-2 text-muted-foreground">Live classes where you can ask the expert, deepen learning, and find a parent community.</p>
                 </div>
+                <div className="text-center">
+                    <div className="flex justify-center items-center mb-4 w-16 h-16 mx-auto bg-primary/10 rounded-full">
+                        <HeartHandshake className="w-8 h-8 text-primary"/>
+                    </div>
+                    <h3 className="text-xl font-headline font-bold">Fun & Active Learning</h3>
+                    <p className="mt-2 text-muted-foreground">Forget dry lectures. We use playful, spot-on demonstrations that feel exactly like life with your child.</p>
+                </div>
                  <div className="text-center">
                     <div className="flex justify-center items-center mb-4 w-16 h-16 mx-auto bg-primary/10 rounded-full">
                         <BrainCircuit className="w-8 h-8 text-primary"/>
                     </div>
-                    <h3 className="text-xl font-headline font-bold">Mindset Over Methods</h3>
-                    <p className="mt-2 text-muted-foreground">Go beyond mimicry to start mastering the fundamentals of relationship-building. <em>That's</em> parenting superpower.
-                    </p>
+                    <h3 className="text-xl font-headline font-bold">Your Real Parenting Superpower</h3>
+                    <p className="mt-2 text-muted-foreground">Techniques change. Principles don't. Learn the fundamentals of connection so you can adapt to any moment — no script required.</p>
                 </div>
                 <div className="text-center">
                     <div className="flex justify-center items-center mb-4 w-16 h-16 mx-auto bg-primary/10 rounded-full">
@@ -236,7 +235,7 @@ const CurriculumSection = () => (
     <section id="curriculum" className="py-16 md:py-24 bg-secondary">
         <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl md:text-4xl font-headline font-bold text-center">Course Curriculum</h2>
-            <p className="mt-4 max-w-2xl mx-auto text-center text-muted-foreground">A 4-week GOODBYE to transform your family's dynamic.</p>
+            <p className="mt-4 max-w-2xl mx-auto text-center text-muted-foreground">A 4-week to transform your family's dynamic.</p>
             <div className="max-w-3xl mx-auto mt-12">
                 <Accordion type="single" collapsible className="w-full">
                     <AccordionItem value="item-1">
