@@ -185,15 +185,15 @@ const SampleLessonSection = () => {
                          <ul className="mt-4 space-y-3">
                              <li className="flex items-center gap-3">
                                  <CheckCircle className="w-6 h-6 text-primary"/>
-                                 <span>The 3 stages of a tantrum.</span>
+                                 <span>The science of tantrums</span>
                              </li>
                              <li className="flex items-center gap-3">
                                  <CheckCircle className="w-6 h-6 text-primary"/>
-                                 <span>Why talking makes it worse.</span>
+                                 <span>Staying connected and calm</span>
                              </li>
                              <li className="flex items-center gap-3">
                                  <CheckCircle className="w-6 h-6 text-primary"/>
-                                 <span>How to hold the space with calm.</span>
+                                 <span>Help your child build their self-regulation</span>
                              </li>
                          </ul>
                      </div>
@@ -207,7 +207,7 @@ const CourseHighlightsSection = () => (
     <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6">
              <div className="text-center mb-12">
-                 <h2 className="text-3xl md:text-4xl font-headline font-bold">A unique parenting class experience</h2>
+                 <h2 className="text-3xl md:text-4xl font-headline font-bold">Journey through Parenting - A Class for All Parents</h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="text-center">
@@ -395,8 +395,8 @@ export default function Home() {
         <Hero />
         <ProblemSection />
         <InstructorSection />
-        <SampleLessonSection/>
         <CourseHighlightsSection />
+        <SampleLessonSection/>
         <CurriculumSection />
         <TestimonialsSection />
         <FaqSection />
